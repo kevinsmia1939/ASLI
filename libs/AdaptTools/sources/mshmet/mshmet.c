@@ -12,6 +12,8 @@
 char     idir[5]     = {0,1,2,0,1};
 mytime   ctim[TIMEMAX];
 
+int norpoi(pMesh mesh,pSol sol);
+
 
 static void excfun(int sigid) {
   fprintf(stdout,"\n Unexpected error:");  fflush(stdout);
